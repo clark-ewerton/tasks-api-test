@@ -3,6 +3,7 @@ package br.ce.wcaquino.tasks.apitest;
 import org.hamcrest.CoreMatchers;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.Ignore;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
@@ -49,6 +50,7 @@ public class APITest {
 		;
 	}
 	
+	@Ignore
 	@Test
 	public void deveRemoverTarefaComSucesso() {
 		//inserir
